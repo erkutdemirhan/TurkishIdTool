@@ -22,7 +22,7 @@ Let n is an 11 digits long positive integer and < a<sub>1</sub>, a<sub>2</sub>, 
 
 n is a valid Turkish ID number if and only if the following conditions hold:
 
-* a<sub>1</sub> is in the range of [1, 9]
+* a<sub>1</sub> is a non-zero digit
 * a<sub>10</sub> = { (a<sub>1</sub>+a<sub>3</sub>+a<sub>5</sub>+a<sub>7</sub>+a<sub>9</sub>) * 7 - 
                     (a<sub>2</sub>+a<sub>4</sub>+a<sub>6</sub>+a<sub>8</sub>) } (mod 10)
 * a<sub>11</sub> = (a<sub>1</sub>+a<sub>2</sub>+...+a<sub>10</sub>) (mod 10)
